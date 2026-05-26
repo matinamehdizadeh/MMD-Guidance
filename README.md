@@ -81,8 +81,11 @@ The precomputation function is in:
 
 ```text
 Unconditional_MMD/latent-diffusion/scripts/sample_diffusion.py
+
 The connected functions are:
-  -precompute_F_M_real
+{
+  precompute_F_M_real
+}
 
 ```
 
@@ -95,12 +98,14 @@ The MMD guidance logic is in:
 
 ```text
 Unconditional_MMD/latent-diffusion/ldm/models/diffusion/ddpm.py
-The connected functions are:
 
-  _flatten_feats
-  compute_kid_grad_poly3
-  get_F_M
-  cond_fn
+The connected functions are:
+{
+  _flatten_feats()
+  compute_kid_grad_poly3()
+  get_F_M()
+  cond_fn()
+}
 ```
 
 
