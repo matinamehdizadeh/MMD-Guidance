@@ -31,7 +31,6 @@ env/
 samples/
 logs/
 outputs/
-results/
 wandb/
 lightning_logs/
 
