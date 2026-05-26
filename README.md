@@ -11,6 +11,18 @@ This repository contains two parts:
 
 The current implementation for unconditional MMD is based on the CompVis latent-diffusion codebase, with targeted changes that add MMD guidance during sampling.
 
+## Results
+
+Qualitative comparisons for unconditional distribution adaptation are shown below. Each figure compares user reference data, user-trained diffusion without MMD guidance, fine-tuning, classifier guidance, and MMD Guidance.
+
+### FFHQ
+
+![FFHQ hair attribute results](assets/results/ffhq_hair_results.png)
+
+### CelebA-HQ
+
+![CelebA-HQ glasses attribute results](assets/results/celebahq_glasses_results.png)
+
 ## Unconditional MMD
 
 The unconditional code is in:
