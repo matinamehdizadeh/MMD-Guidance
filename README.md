@@ -17,11 +17,11 @@ Qualitative comparisons for unconditional distribution adaptation are shown belo
 
 ### FFHQ
 
-![FFHQ hair attribute results](assets/results/ffhq_hair_results.png)
+![FFHQ hair attribute results](assets/results/ffhq_results.png)
 
 ### CelebA-HQ
 
-![CelebA-HQ glasses attribute results](assets/results/celebahq_glasses_results.png)
+![CelebA-HQ glasses attribute results](assets/results/celebahq_results.png)
 
 ## Unconditional MMD
 
