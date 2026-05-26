@@ -1,0 +1,50 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Model checkpoints and weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Precomputed features and generated arrays
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Generated samples and experiment outputs
+samples/
+logs/
+outputs/
+results/
+wandb/
+lightning_logs/
+
+# Cluster/job output files
+JOB*.out
+JOB*-err.out
+slurm-*.out
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Backups of nested repositories
+.git_backup/
