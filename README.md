@@ -84,7 +84,7 @@ Unconditional_MMD/latent-diffusion/scripts/sample_diffusion.py
 
 The connected functions are:
 {
-  precompute_F_M_real
+  precompute_F_M_real()
 }
 
 ```
